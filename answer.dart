@@ -9,5 +9,14 @@ void main(List<String> args) {
 
 // Question 2 done
 
-//
+//Question 3 sum of series
+  List<int> mySeries = [1, 5, 9, 13, 17, 21, 25, 29, 33, 37];
+
+  num sum = 0;
+
+  for (var i = 0; i < mySeries.length; i++) {
+    sum = sum + mySeries[i];
+  }
+
+  print("The sum of the series : $sum");
 }
