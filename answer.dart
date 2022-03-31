@@ -19,4 +19,21 @@ void main(List<String> args) {
   }
 
   print("The sum of the series : $sum");
+
+// Question 3 done
+
+// Question 5
+
+  var char = '@';
+  if (char.codeUnitAt(0) >= 97 && char.codeUnitAt(0) <= 122) {
+    print("you hit the character of $char");
+  } else if (char.codeUnitAt(0) >= 65 && char.codeUnitAt(0) <= 132) {
+    print("you hit the character of $char");
+  } else if (char.codeUnitAt(0) >= 48 && char.codeUnitAt(0) <= 57) {
+    print("you hit the character of $char");
+  } else {
+    print("you hit the character of symbol of $char");
+  }
+
+// Question 5 done
 }
