@@ -67,4 +67,15 @@ void main(List<String> args) {
   else
     print("No Majority Element");
   print(myLst.length);
+
+  // Question 4 done
+
+  // Question 1
+
+  int num1 = 5, fact = 1, i;
+
+  for (var i = 1; i <= num1; i++) {
+    fact = fact * i;
+  }
+  print("factorial of $num1 is $fact");
 }
